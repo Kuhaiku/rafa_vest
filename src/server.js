@@ -36,6 +36,7 @@ app.listen(PORT, () => {
   console.log(`🚀 [ESTADO ZERO] Sistema rodando na porta ${PORT}`);
 });
 
+
 process.on('unhandledRejection', (reason) => {
   console.error('Unhandled Rejection at:', reason);
 });
